@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="旅行相簿 iOS App 隐私政策。说明照片、地点、iCloud 归属信息、购买和分享数据的处理方式。">
+  <title>隐私政策｜旅行相簿</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">Travel Album · Privacy</p>
+      <h1>旅行相簿隐私政策</h1>
+      <p class="lead">我们把旅行照片整理成相簿，也尽量让数据留在它应该在的地方：照片原片不进入运营者服务器。</p>
+      <p class="meta">
+        <span>生效日期：2026 年 11 月 6 日</span>
+        <span>适用于 iOS App「旅行相簿」</span>
+      </p>
+    </header>
+
+    <div class="layout">
+      <aside class="summary">
+        <strong>运营者</strong>
+        <p>上海市浦东新区张江镇翼然软件商店（个体工商户）</p>
+        <nav aria-label="政策目录">
+          <a href="#scope">1. 适用范围</a>
+          <a href="#photos">2. 照片与本地整理</a>
+          <a href="#location">3. 地点线索</a>
+          <a href="#account">4. Apple 登录与归属</a>
+          <a href="#purchase">5. 免费额度与购买</a>
+          <a href="#sharing">6. 分享</a>
+          <a href="#logs">7. 技术记录</a>
+          <a href="#retention">8. 保存与删除</a>
+          <a href="#rights">9. 用户权利与联系</a>
+          <a href="#filing">10. 备案信息</a>
+        </nav>
+      </aside>
+
+      <article>
+        <div class="summary">
+          <strong>简要说明</strong>
+          <p>照片整理、相簿文字和额度保存在设备上；为恢复 App 管理的苹果相册，最小归属标识保存在用户自己的 CloudKit 私有数据库。运营者不会出售用户信息，也不上传照片原片或缩略图。</p>
+        </div>
+
+        <section id="scope">
+          <h2>1. 适用范围与运营者</h2>
+          <p>本政策说明“旅行相簿”（以下简称“本 App”）如何访问、处理、保存和删除用户信息。</p>
+          <p>运营者：上海市浦东新区张江镇翼然软件商店（个体工商户）</p>
+          <p>经营者：吕骁翼</p>
+          <p>隐私与支持邮箱：<a href="mailto:braveowing_support@126.com">braveowing_support@126.com</a></p>
+        </section>
+
+        <section id="photos">
+          <h2>2. 照片与本地整理</h2>
+          <p>只有在用户通过 iOS 系统授权后，本 App 才会通过 Apple PhotoKit 读取照片库。本 App 使用照片日期、地点、媒体类型和本地图像分析发现旅行、展示候选相簿并完成整理。</p>
+          <p>照片筛选、操作决策、相簿文字、封面和主题设置保存在用户设备的 App 沙箱中。运营者服务器不会收到照片原片或缩略图。</p>
+          <p>仅存于 iCloud 照片、尚未下载到设备的资源，可能由 PhotoKit 按用户设备和 Apple 设置下载。该过程受用户与 Apple 之间的 iCloud 条款约束；运营者不经营照片存储服务。</p>
+          <p>本 App 不请求相机、麦克风、通讯录、持续定位或广告追踪权限。</p>
+        </section>
+
+        <section id="location">
+          <h2>3. 地点线索</h2>
+          <p>旅行地点可从用户已授权的照片元数据中在本机推导。若系统框架完成地点名称解析，相关信息可能按 Apple 的平台服务条款由 Apple 处理。</p>
+          <p>运营者不会把精确坐标、相簿标题或照片内容上载到自己的服务器，也不会把精确坐标写入诊断日志。</p>
+        </section>
+
+        <section id="account">
+          <h2>4. Apple 登录与相簿归属</h2>
+          <p>用户主动选择“通过 Apple 登录”后，本 App 接收 Apple 提供的稳定用户标识，用于区分本机账号作用域。该标识不能授予 Pro 权益，也不替代 App Store 的购买验证。</p>
+          <p>为在重装或换机后识别由本 App 管理的苹果相册，本 App 会把最小归属信息保存到用户自己的 CloudKit 私有数据库。这些信息包括账号作用域摘要、App 相簿标识、对应 Photos 相簿的云标识、版本、管理文件夹标识和处理状态。</p>
+          <p>上述 CloudKit 归属信息不包含照片原片、缩略图、相簿正文、精确坐标、授权码、支付凭据或原始 Apple 用户标识。CloudKit 由 Apple 提供并受 Apple 条款约束。</p>
+          <p>若 CloudKit 暂时不可用，本 App 可能按产品设计在用户相册中创建用于恢复识别的尾页图片。尾页只包含最小归属元数据。</p>
+        </section>
+
+        <section id="purchase">
+          <h2>5. 免费额度与购买</h2>
+          <p>免费功能使用量保存在设备 Keychain 中，用于累计照片整理、相簿生成和整本分享额度。该额度不会上传到运营者服务器。</p>
+          <p>月度订阅、终身购买、恢复购买和退款状态由 Apple StoreKit 处理。本 App 只使用 Apple 验证后的交易结果确定权益。付款信息由 Apple 处理，运营者不接收银行卡号或 Apple 账户密码。</p>
+        </section>
+
+        <section id="sharing">
+          <h2>6. 分享</h2>
+          <p>整本长图和单张照片在用户设备上生成。用户主动打开系统分享面板后，所选图片会交给用户选择的目标 App 或联系人，其后续处理受目标服务的隐私政策约束。</p>
+          <p>临时分享文件保存在 App 私有临时目录。系统分享结束后会清理，异常残留最迟在后续启动时处理。</p>
+        </section>
+
+        <section id="logs">
+          <h2>7. 技术记录</h2>
+          <p>本 App 使用不含照片内容的最小本地事件和性能耗时记录来诊断失败并维护稳定性。日志不记录照片内容、相簿正文、精确坐标、原始 Apple 用户标识、支付凭据或分享接收人。</p>
+          <p>本地事件按既定保留上限滚动删除，不上传至运营者服务器。</p>
+        </section>
+
+        <section id="retention">
+          <h2>8. 保存期限与删除</h2>
+          <ul>
+            <li>本机照片整理与相簿数据保存在设备中，直至用户删除对应内容、清除 App 数据或卸载 App。</li>
+            <li>账号归属信息保存在 Apple CloudKit 私有数据库，直至用户在 App 内删除账号数据。</li>
+            <li>App Store 交易记录由 Apple 按其法律和运营要求保存；本 App 无法删除 Apple 的交易历史。</li>
+          </ul>
+          <p>用户可在 App 的“设置”中选择“删除账号数据”。该操作会删除当前 Apple 归属账号的 CloudKit 归属记录、本账号业务库、偏好、Keychain 账目、归属注册和本地待处理意图，并退出当前账号。</p>
+          <p class="note">删除账号不会删除照片原片、苹果相册中的用户内容或 App Store 购买。已购订阅的扣款与续订由 Apple 管理，用户应在 Apple 订阅设置中管理或取消。如需同时撤销“通过 Apple 登录”的授权，可在 iPhone“设置”的 Apple 账户“登录与安全”中移除本 App。</p>
+        </section>
+
+        <section>
+          <h2>共享、出售与追踪</h2>
+          <p>运营者不通过本 App 出售用户信息，不把照片用于广告画像，不使用跨 App 广告追踪。除 Apple 提供的系统服务、用户主动选择的分享目标及法律要求外，本 App 不向第三方提供用户照片或相簿内容。</p>
+        </section>
+
+        <section>
+          <h2>儿童与安全</h2>
+          <p>本 App 不以儿童为主要目标，不主动收集儿童个人信息。本 App 使用 iOS Data Protection、Keychain 和 Apple 平台安全能力保护本地数据。任何系统都难以达到绝对安全；如发生可能影响用户的重大安全事件，运营者将按适用法律采取措施并通知相关用户。</p>
+        </section>
+
+        <section id="rights">
+          <h2>9. 用户权利与联系</h2>
+          <p>用户可以在 iOS 设置中调整或撤回照片权限；在 App 内删除账号数据；清除本机 App 数据或卸载 App；也可以通过邮箱请求查阅、更正、删除或说明与本 App 相关的个人信息。</p>
+          <p>运营者会在适用法律要求的期限内处理请求。若用户对处理结果有异议，可通过当地个人信息保护或消费者权益渠道寻求帮助。</p>
+          <p><a class="contact" href="mailto:braveowing_support@126.com?subject=%E6%97%85%E8%A1%8C%E7%9B%B8%E7%B0%BF%E9%9A%90%E7%A7%81%E8%AF%B7%E6%B1%82">发送隐私请求</a></p>
+          <p><a href="support.html">查看用户支持与常见问题</a></p>
+        </section>
+
+        <section>
+          <h2>政策更新</h2>
+          <p>当数据处理方式发生实质变化时，运营者会更新本政策和生效日期。依法需要重新取得同意时，运营者会在使用相关功能前另行提示。</p>
+        </section>
+
+        <section id="filing">
+          <h2>10. 备案信息</h2>
+          <p>本 App 的 APP 备案正在办理中。取得备案编号后，运营者会在 App 内显著位置和本政策中更新。</p>
+          <p>备案查询：<a href="https://beian.miit.gov.cn">https://beian.miit.gov.cn</a></p>
+        </section>
+
+        <footer>
+          <p>本页面由旅行相簿运营者发布。页面不使用广告、分析脚本、外部字体或追踪 Cookie。</p>
+        </footer>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
